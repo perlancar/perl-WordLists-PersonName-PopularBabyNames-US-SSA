@@ -1,7 +1,0 @@
-* Updating
-
-: % wget http://useragentstring.com/pages/useragentstring.php?name=Chrome
-
-: % perl -lne'while (m!id=\d+\x27>(.+?)</a>!g) { print $1 }' useragentstring.php\?name\=Chrome
-
-Copy the list to source code.
